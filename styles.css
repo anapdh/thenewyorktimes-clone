@@ -272,3 +272,19 @@ iframe {
 .maintext2 figcaption {
   width: 90%;
 }
+
+.lastp {
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  margin-bottom: -10px;
+}
+
+.lastp a {
+  color: #666;
+}
+
+.maintext2 button {
+  width: 600px;
+  height: 40px;
+}
