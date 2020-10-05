@@ -113,10 +113,6 @@ figcaption > span {
   color: #888;
 }
 
-.container {
-  display: flex;
-}
-
 h5 a {
   text-decoration: none;
   color: #333;
@@ -213,7 +209,7 @@ aside a {
 /* SECTION GRID*/
 
 .theorysection {
-  width: 81%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -244,4 +240,35 @@ aside a {
 .theorytext strong {
   color: black;
   font-size: inherit;
+}
+
+.authors hr {
+  margin: 80px 0 25px 0;
+  float: left;
+  width: 60px;
+}
+
+.authors p {
+  clear: left;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+}
+
+.maintext2 {
+  margin: auto;
+  width: 50%;
+}
+
+iframe {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.maintext2 img {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.maintext2 figcaption {
+  width: 90%;
 }
