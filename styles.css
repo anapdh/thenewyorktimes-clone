@@ -164,3 +164,52 @@ h5 a {
   line-height: 30px;
   color: #333;
 }
+
+.maintext a {
+  color: #326891;
+}
+
+aside {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin: -270px;
+  margin-top: -150px;
+  width: 200px;
+}
+
+aside h6 {
+  border-bottom: 1px solid #888;
+}
+
+aside img {
+  width: 35%
+}
+
+aside figcaption {
+  margin: -70px 0 20px 75px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+aside a {
+  text-decoration: none;
+  color: black;
+}
+
+.middletext {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 8px;
+  color: #333;
+  text-align: center;
+
+}
+.middletext a {
+  text-decoration: none;
+}
+
+.middletext hr {
+  width: 80px;
+}
