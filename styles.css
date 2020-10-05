@@ -7,10 +7,6 @@ body {
   color: #333;
   background-color: white;
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
 }
 
 .navbar {
@@ -212,4 +208,40 @@ aside a {
 
 .middletext hr {
   width: 80px;
+}
+
+/* SECTION GRID*/
+
+.theorysection {
+  width: 81%;
+  margin: 0 auto;
+}
+
+.theorytext {
+  display: grid;
+  background-image: url(assets/background.png);
+  background-size: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+  "cell1 cell2 cell3 cell4"
+  "cell5 cell6 cell7 cell8";
+  width: 100%;
+  column-gap: 10px;
+  height: 576px;
+  background-size: cover;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.theorytext p {
+  margin-top: 160px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #666;
+}
+
+.theorytext strong {
+  color: black;
+  font-size: inherit;
 }
