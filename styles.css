@@ -115,8 +115,6 @@ h5 a {
   color: #333;
 }
 
-/* AJUST THE ICONS TO TE END */
-
 .articlelist1 {
   display: flex;
   flex-direction: row;
@@ -142,7 +140,12 @@ h5 a {
   justify-content: flex-end;
 }
 
-/* AJUST THE ICONS TO TE END */
+#authorname, h5 {
+  margin: 10px auto 0 auto;
+  color: #000;
+  text-decoration: underline;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
 
 .maintext {
   margin: 0 200px;
@@ -157,6 +160,8 @@ h5 a {
 .maintext a {
   color: #326891;
 }
+
+
 
 aside {
   float: right;
@@ -256,7 +261,7 @@ aside {
 
 .maintext2 {
   margin: auto;
-  width: 50%;
+  width: 39%;
 }
 
 iframe {
@@ -265,7 +270,7 @@ iframe {
 }
 
 .maintext2 img {
-  margin-top: 30px;
+  margin-top: 25px;
   width: 100%;
 }
 
@@ -389,6 +394,8 @@ iframe {
 
 .linkssection hr {
   width: 1200px;
+  height: 2px;
+  background-color: #e2e2e2;
 }
 
 .linkssection a {
@@ -436,11 +443,17 @@ iframe {
   font-size: 16px;
   height: 5px;
   white-space: nowrap;
+  margin: 15px 0;
+}
+
+.bordercol {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 15px;
 }
 
 .column hr {
   width: 200px;
-  background-color: oldlace;
+  background-color: #e2e2e2;
 }
 
 .footerlinks {
