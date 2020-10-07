@@ -99,7 +99,7 @@ ol .navright {
   cursor: pointer;
 }
 
-figcaption {
+.piccapt {
   color: #666;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   text-align: left;
@@ -109,7 +109,7 @@ figcaption {
   line-height: 20px;
 }
 
-figcaption > span {
+.piccapt span {
   font-size: 13px;
   line-height: 18px;
   color: #888;
