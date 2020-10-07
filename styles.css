@@ -140,7 +140,7 @@ figcaption > span {
   justify-content: flex-end;
 }
 
-#authorname,h5 {
+#authorname {
   margin: 10px auto 0 auto;
   color: #000;
   text-decoration: underline;
@@ -178,7 +178,11 @@ aside {
   width: 40%;
 }
 
-#cosmo,figcaption {
+#cosmo {
+  width: 100%;
+}
+
+.figcapcosmo {
   width: 100%;
 }
 
