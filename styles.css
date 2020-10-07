@@ -182,10 +182,6 @@ aside {
   width: 100%;
 }
 
-.figcapcosmo {
-  width: 100%;
-}
-
 .edp-cap {
   margin: -70px 0 20px 85px;
   padding-top: 7px;
@@ -269,7 +265,11 @@ aside {
 
 iframe {
   width: 100%;
-  margin-top: 30px;
+}
+
+.iframecapt {
+  width: 100%;
+  margin-top: 0;
 }
 
 .maintext3 {
