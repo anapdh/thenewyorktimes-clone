@@ -161,8 +161,6 @@ h5 a {
   color: #326891;
 }
 
-
-
 aside {
   float: right;
   display: flex;
@@ -199,9 +197,8 @@ aside {
   line-height: 8px;
   color: #333;
   text-align: center;
-  
-
 }
+
 .middletext a {
   text-decoration: none;
 }
@@ -261,7 +258,6 @@ aside {
 
 .maintext2 {
   margin: auto;
-  width: 39%;
 }
 
 iframe {
@@ -269,13 +265,13 @@ iframe {
   margin-top: 30px;
 }
 
-.maintext2 img {
-  margin-top: 25px;
+#cosmo, figcaption {
   width: 100%;
 }
 
-.maintext2 figcaption {
-  width: 90%;
+.maintext3 {
+  margin: auto;
+  width: 40%;
 }
 
 .lastp {
@@ -289,7 +285,7 @@ iframe {
   color: #666;
 }
 
-.maintext2 button {
+.maintext3 button {
   width: 600px;
   height: 40px;
 }
