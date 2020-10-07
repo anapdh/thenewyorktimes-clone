@@ -27,6 +27,11 @@ ol .navleft {
   margin: 3px;
 }
 
+h5 a {
+  text-decoration: none;
+  color: #333;
+}
+
 .navtext a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -77,7 +82,7 @@ ol .navright {
   margin-right: auto;
 }
 
- .container h1 {
+.container h1 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-style: italic;
   font-weight: 700;
@@ -96,7 +101,7 @@ ol .navright {
 
 figcaption {
   color: #666;
-  font-family: nyt-imperial, georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   text-align: left;
   width: 70%;
   font-weight: 400;
@@ -110,18 +115,13 @@ figcaption > span {
   color: #888;
 }
 
-h5 a {
-  text-decoration: none;
-  color: #333;
-}
-
 .articlelist1 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.articlelist1 p { 
+.articlelist1 p {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 13px;
   line-height: 16px;
@@ -140,7 +140,7 @@ h5 a {
   justify-content: flex-end;
 }
 
-#authorname, h5 {
+#authorname,h5 {
   margin: 10px auto 0 auto;
   color: #000;
   text-decoration: underline;
@@ -175,7 +175,11 @@ aside {
 }
 
 .edpick img {
-  width: 40%
+  width: 40%;
+}
+
+#cosmo,figcaption {
+  width: 100%;
 }
 
 .edpick figcaption {
@@ -207,7 +211,7 @@ aside {
   width: 80px;
 }
 
-/* SECTION GRID*/
+/* SECTION GRID */
 
 .theorysection {
   width: 80%;
@@ -217,7 +221,6 @@ aside {
 .theorytext {
   display: grid;
   background-image: url(assets/background.png);
-  background-size: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
@@ -263,10 +266,6 @@ aside {
 iframe {
   width: 100%;
   margin-top: 30px;
-}
-
-#cosmo, figcaption {
-  width: 100%;
 }
 
 .maintext3 {
@@ -328,7 +327,7 @@ iframe {
   height: 181px;
 }
 
-.leftside figcaption {
+.content p {
   font-family: inherit;
   font-size: 10px;
   font-weight: 400;
@@ -348,11 +347,28 @@ iframe {
   width: 250px;
 }
 
+.rightside a {
+  border-top: 1px solid #e2e2e2;
+}
+
+.linkssection a {
+  font-size: 11px;
+  color: #326891;
+}
+
 .flexcontainer a {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #000;
   text-decoration: none;
+}
+
+.footerlinks a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+  text-align: center;
 }
 
 .flexcontainer a:hover {
@@ -362,7 +378,7 @@ iframe {
 .content {
   display: flex;
   flex-direction: column;
-  margin: 0px 15px 10px 0px;
+  margin: 0 15px 10px 0;
   height: 300px;
 }
 
@@ -370,10 +386,6 @@ iframe {
   display: flex;
   flex-direction: column;
   width: 315px;
-}
-
-.rightside a {
-  border-top: 1px solid #e2e2e2;
 }
 
 .linkssection {
@@ -394,11 +406,6 @@ iframe {
   background-color: #e2e2e2;
 }
 
-.linkssection a {
-  font-size: 11px;
-  color: #326891;
-}
-
 .logofotimg {
   width: 60%;
 }
@@ -406,8 +413,7 @@ iframe {
 .linkscolumns {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-areas:
-    "column column column column column column";
+  grid-template-areas: "column column column column column column";
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
@@ -425,12 +431,10 @@ iframe {
 }
 
 .link {
-  font-size: 14PX;
+  font-size: 14px;
   line-height: 16px;
-  width: fit-content;
   height: 25px;
   margin: 0;
-  width: fit-content;
 }
 
 .link2 {
@@ -460,14 +464,6 @@ iframe {
   margin: 20px auto 80px auto;
   padding: 10px;
   border-top: 1px solid #e2e2e2;
-}
-
-.footerlinks a {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  text-decoration: none;
-  color: #666;
-  font-size: 11px;
-  text-align: center;
 }
 
 .footernavbar {
