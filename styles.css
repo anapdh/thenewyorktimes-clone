@@ -437,3 +437,21 @@ iframe {
 .column hr {
   width: 200px;
   background-color: #e2e2e2;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+  
+  
+.footer a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+  text-align: center;
+}
