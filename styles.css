@@ -387,6 +387,10 @@ iframe {
   max-width: 1200px;
 }
 
+.linkssection hr {
+  width: 1200px;
+}
+
 .linkssection a {
   font-size: 11px;
   color: #326891;
@@ -436,22 +440,57 @@ iframe {
 
 .column hr {
   width: 200px;
-  background-color: #e2e2e2;
+  background-color: oldlace;
 }
 
-.footer {
+.footerlinks {
   display: flex;
   justify-content: space-between;
   width: 80%;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 20px auto 80px auto;
+  padding: 10px;
+  border-top: 1px solid #e2e2e2;
 }
-  
-  
-.footer a {
+
+.footerlinks a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-decoration: none;
   color: #666;
   font-size: 11px;
   text-align: center;
+}
+
+.footernavbar {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  height: 55px;
+  border-top: 1px solid #000;
+  background: #fff;
+}
+
+.footernavbar ul {
+  display: flex;
+  width: 95%;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000;
+  list-style: none;
+}
+
+.access {
+  display: flex;
+  margin: 0 auto;
+}
+
+.expand {
+  font-size: 14px;
+  display: flex;
+  font-weight: 600;
 }
