@@ -374,3 +374,66 @@ iframe {
 .rightside a {
   border-top: 1px solid #e2e2e2;
 }
+
+.linkssection {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.footertop {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.linkssection a {
+  font-size: 11px;
+  color: #326891;
+}
+
+.logofotimg {
+  width: 60%;
+}
+
+.linkscolumns {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas:
+    "column column column column column column";
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.column img {
+  width: 20px;
+  height: 20px;
+}
+
+.link {
+  font-size: 14PX;
+  line-height: 16px;
+  width: fit-content;
+  height: 25px;
+  margin: 0;
+  width: fit-content;
+}
+
+.link2 {
+  font-weight: 700;
+  line-height: 15px;
+  font-size: 16px;
+  height: 5px;
+  white-space: nowrap;
+}
+
+.column hr {
+  width: 200px;
+  background-color: #e2e2e2;
